@@ -17,6 +17,9 @@ class MyAppState extends State {
 			title: 'NEWS WATCH',
 			theme: ThemeData(
 				primaryColor: Color.fromARGB(255, 254, 85, 106),
+				appBarTheme: AppBarTheme(
+				color: Colors.lime[100],
+				)
 			),
 //			initialRoute: Home.rName,
 			home: ImageSplashScreen(),
